@@ -1,6 +1,6 @@
 
 
-# Clone do Spotify v2
+# Clone do Spotify 
 
 Um web app clone do spotify feito em React.js e Next.js. <a href="https://github.com/annalaura2/spotify-clone" target="_blank">API</a> feita em .NET 7 e adequada para as necessidades do projeto.
 
