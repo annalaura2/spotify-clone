@@ -1,0 +1,50 @@
+.container {
+    // background-color: red !important;
+    background-color: var(--preto2);
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-top: 1rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-bottom: 10rem;
+
+    .bomDia {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        font-size: 2rem;
+        line-height: 1.75rem;
+        letter-spacing: -0.04em;
+        font-weight: 700;
+        color: var(--branco-escuro);
+    }
+
+    .div {
+        // background-color: pink;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.875rem;
+    }
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+/* hi-res laptops and desktops */
+@media (max-width:1281px) {}
+
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width:801px) {}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width:600px) {}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (max-width:480px) {}
